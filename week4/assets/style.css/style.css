@@ -1,0 +1,378 @@
+        html{
+            width: 1920px;  
+        }
+        
+        
+        .try {
+            background: url(/assets/image/Rectangle3.png) no-repeat;
+            background-color: rgba(51, 51, 51);
+        }
+
+        .soder{
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+            border: 3px solid red;
+        }
+
+        
+
+        .wrapper {
+            display: flex;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 1920px;
+        }
+
+        .header_menu {
+            display: flex;
+            padding-top: 51px;
+            align-items: center;
+            justify-content: center;
+       }
+
+        .header_lyst {
+            display: flex;
+        }
+
+        .header_item {
+            display: inline-block;
+        }
+
+        .header_link {
+            display: inline-block;
+            text-transform: uppercase;
+            padding: 0px;
+            margin-right: 63px;
+            color: #ffffff;
+            font-size: 18px;
+            text-decoration: none;
+            font-family: 'Open Sans Condensed';
+            font-style: normal;
+        }
+
+        .header_link:hover {
+            color: #d1a954;
+        }
+
+        .tel {
+            color: #FFFFFF;
+            padding: 0px;
+            letter-spacing: 10%;
+        }
+
+        .tel:hover {
+            color: #D1A954;
+        }
+
+        #aside_blok {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            background-color: rgba(40, 40, 40, 0.75);
+            height: 1045px;
+            width: 150px;
+        }
+
+
+        #aside_info {
+            -webkit-writing-mode: vertical-rl;
+            writing-mode: tb-rl;
+            transform: rotate(180deg);
+        }
+
+        .blok1 {
+            border: 3px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 191px;
+        }
+
+        .blok1_text{
+            height: 296px;
+            width: 540px;
+            margin-right: 124px;
+            
+        }
+
+       .blok1_h1 {
+            margin: 0px;
+            color: #FFFFFF;
+            font-size: 60px;
+            font-family:'Open Sans Condensed';
+            font-style: normal;
+            padding-bottom: 50px;
+        }
+
+        .blok1_p{
+            font-family: 'Open Sans';
+            Font-style: Regular;
+            line-height: 18px;
+            color: #FFFFFF;
+            font-size: 14px;
+            margin: 0px;
+            padding-bottom: 50px;
+        }
+
+        .blok1_bottom {
+            background-color: #D1A954;
+            color: #FFFFFF;
+            font-size: 18px;            
+            height: 50px;
+            width: 160px;
+            font-family:'Open Sans Condensed';
+            font-style: normal;
+        }
+
+        .blok1_bottom:hover{ 
+            background-color: red;
+        }
+
+        h2 {
+            margin: 0px;
+            margin-bottom: 100px;
+            padding: 0px;
+            display: flex;
+            color: #FFFFFF;
+            font-size: 48px;
+            align-items: center;
+            justify-content: center;
+            font-family:'Open Sans Condensed';
+            font-style: normal;
+        }
+
+        h3 {
+            color: #FFFFFF;
+            font-size: 21px;
+            font-family:'Open Sans Condensed';
+            font-style: normal;
+            margin: 0px;
+            margin-bottom: 30px;
+
+        }
+
+        p {
+            font-family: 'Open Sans';
+            Font-style: Regular;
+            line-height: 18px;
+            color: #FFFFFF;
+            font-size: 14px;
+            margin: 0px;
+           
+
+        }
+
+        .blok2_info {
+            display: flex;
+            border: 3px solid yellow;
+            justify-content: center;
+       }
+
+        .blok2 {
+            margin-top: 420px;
+            padding: 0px;
+            border: 3px solid yellow;
+        }
+
+        .blok2_info1{
+            border: 3px solid yellow;
+            height: 273px;
+            width: 445px;
+            margin-right: 30px;
+        }
+
+        .blok2_h3 {
+            padding: 0px;
+            
+        }
+
+        .blok2_p {
+            padding: 0px;
+            margin-top: 30px;
+           
+
+        }
+
+        .blok2_info2 {
+            padding: 0px;
+            border: 3px solid yellow;
+            margin-right: 30px;
+        } 
+
+        .img_1{
+            margin-bottom: 25px;
+        }
+
+        .img_2{
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        .blok2_img {
+            width: 350px;
+            height: 292px;
+            border: 3px solid yellow;
+        }
+
+        .blok3{
+            border: 3px solid green;
+            margin-top: 150px;
+        }
+           
+
+        .blok3_gallery {
+            border: 3px solid green;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .blok3_prem {
+            border: 3px solid green;
+            display: flex;
+            justify-content: center;
+            padding: 0px;
+            margin-top: 150px;
+        }
+
+        .blok_logo{
+            border: 3px solid purple; 
+            margin-top: 150px;
+        }
+            
+        .gaz_logo {
+            display: flex;
+            justify-content: center;
+            border: 3px solid purple; 
+            margin-top: 80px;
+        }
+
+        .blok4{
+            border: 3px solid blue;
+            margin-top: 125px;
+        }
+        
+        .blok4_lo{
+            border: 3px solid blue;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .blok4_label {
+            border: 3px solid blue;
+            display: flex;
+            color: #FFFFFF;
+            height: 100px;
+            width: 730px;
+        }
+
+        .blok4_info {
+            border: 3px solid blue;
+            padding: 0px;
+            color: #FFFFFF;
+            font-size: 16px;
+            margin-right: 125px;
+        }
+
+        .info{
+            margin-bottom: 25px;
+        }
+
+        .massage {
+            background-color: #616161;
+            width: 310px;
+            height: 100px;
+            border: 1px, solid #FFFFFF;
+            color: #FFFFFF;
+
+        }
+
+        #name {
+            background-color: #616161;
+            border: 1px, solid #FFFFFF;
+            margin-bottom: 30px;
+            margin-right: 30px;
+            height: 35px;
+            width: 180px;
+            font-size: 12px;
+            color: #FFFFFF;
+        }
+
+        #phone {
+            background-color: #616161;
+            border: 1px, solid #FFFFFF;
+            margin-bottom: 30px;
+            margin-right: 30px;
+            height: 35px;
+            width: 180px;
+            font-size: 12px;
+        }
+
+        #company {
+            background-color: #616161;
+            border: 1px, solid #FFFFFF;
+            margin-bottom: 30px;
+            margin-right: 30px;
+            height: 35px;
+            width: 180px;
+            font-size: 12px;
+            color: #FFFFFF;
+        }
+
+        #e-mail {
+            background-color: #616161;
+            border: 1px, solid #FFFFFF;
+            margin-bottom: 30px;
+            margin-right: 30px;
+            height: 35px;
+            width: 180px;
+            font-size: 12px;
+            color: #FFFFFF;
+       }
+
+        .blok5_p {
+            border: 3px solid blue;
+            display: flex;
+            margin-top: 40px;
+            margin-left: 785px;
+            }
+
+        .blok5_in{
+            border: 3px solid blue;
+            height: 50px;
+            width: 390px;
+            margin-right: 150px;
+        }
+
+        .blok5_buttom {
+            padding: 0px;
+            background-color: #D1A954;
+            color: #FFFFFF;
+            font-size: 18px;
+           height: 50px;
+            width: 160px;
+           font-family:'Open Sans Condensed';
+            font-style: normal;
+
+        }
+
+        .blok5_buttom:hover{ 
+            background-color: red;
+        }
+
+        .blok_5{
+            display: flex;
+            border: 3px solid palegreen;
+            margin-top: 80px;
+            padding: 30px;
+            justify-content: center;
+        }
+
+        .p_5{
+            margin-right: 715px;
+        }
+    
